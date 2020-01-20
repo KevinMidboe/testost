@@ -10,5 +10,4 @@ steps:
 - name: greeting
   image: maze/drone-python
   commands:
-    - python setup.py install
     - echo hello world
