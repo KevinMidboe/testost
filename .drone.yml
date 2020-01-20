@@ -9,7 +9,4 @@ platform:
 steps:
 - name: greeting
   commands:
-    - echo hello world
-- name: py_run
-  commands:
-    - python3 foo.py
+  - echo hello world
