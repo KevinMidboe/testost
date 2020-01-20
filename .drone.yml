@@ -8,5 +8,6 @@ platform:
 
 steps:
 - name: greeting
+  image: maze/drone-python
   commands:
   - echo hello world
